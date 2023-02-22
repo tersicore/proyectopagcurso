@@ -1,0 +1,65 @@
+body{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.list-group-flush{
+    margin-right: 15%
+}
+
+
+#principal{
+    background-color: aliceblue;
+    border: solid #2980B9;
+    border-radius: 15px;
+}
+
+
+
+.habilidades{
+    padding-top: 5%;
+    border-top-style:solid ;
+    border-top-color:rgb(129, 145, 212) ;
+    border-top-width:2px ;
+}
+
+.col-sm-12{
+    font-size:smaller;
+}
+
+.col-md-7{
+    font-size: 5%;
+}
+
+.col-lg-7{
+    font-size: smaller;
+    background-color: aqua;
+}
+
+.justificar{
+    text-align: justify;
+}
+
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    border-radius: 100%;
+}
+
+
+@media only screen and (max-width: 576px) {
+    #titulo1 {
+        text-align: center;
+    }
+}
