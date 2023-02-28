@@ -25,9 +25,8 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,11 +36,11 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#tecnical">Tecnical Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
+                  <a class="nav-link" href="#educacion">Educacion</a>
+              </li>
                 </ul>
             </div>
             </div>
@@ -60,13 +59,15 @@
                 </div>
                 <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7 ">
                     <h1 id="titulo1" class="display-3 my-4"> Minnie Richarson</h1> <!--- Display 3 es para agrandar el titulo-->
+                    <h4 class="text-muted" id="lic-bio">licenciada en biotecnología</h4>
                     <p class="lead">
                         Lorem ipsum  beatae quaerat a. Molestias voluptas sit nisi eveniet, ab, esse earum facere consequatur adipisci hic sint modi voluptate!
                     </p>
                 </div>
             </div>
         </header> 
-         <div class="container habilidades">
+        <section id="tecnical">
+          <div class="container habilidades">
             <h2>Tecnical Skills</h2>
             <div class="card my-3">
                 <div class="card-header bg-info">
@@ -88,21 +89,40 @@
                 </blockquote>
             </div>
             </div>
-        </div>
+          </div>
+        </section>
+  <section id="educacion">
         <div class="container habilidades">
-            <h2>Education</h2>
+            <h2>Educación</h2>
             <div class="card my-3">
                 <div class="card-header bg-info">
-                  Quote
+                  <h5>Nivel medio</h5>
                 </div>
                 <div class="card-body">
                   <blockquote class="blockquote mb-0">
-                    <p>A well-known quote, contained in a blockquote element.</p>
-                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    <p>Instituto politecnico.</p>
+                    <footer class="blockquote-footer">Titulo bachiller en ciencias de la computacion</footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="card my-3">
+                <div class="card-header bg-info">
+                  <h5>Nivel superior</h5>
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>Instituto tecnico superior.</p>
+                    <footer class="blockquote-footer">Titulo tecnico superior en ciencias de la computacion</footer>
                   </blockquote>
                 </div>
               </div>
         </div>
+      </section>
+      <section id="contacto">
+        <div class="container habilidades">
+          <h2>Contacto</h2>
+        </div>
+      </section>
         <div class="row">
             <footer class="footer mt-auto justify-content-between align-items-center py-3 my-4 border-top">
                 <div class="col-md-4 d-flex align-items-center">

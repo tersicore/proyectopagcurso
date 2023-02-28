@@ -11,6 +11,11 @@ a{
     color: black;
 }
 
+header{
+    margin-top: 70px;
+}
+
+
 
 .list-group-flush{
     margin-right: 15%
@@ -23,6 +28,9 @@ a{
     border-radius: 15px;
 }
 
+section[id]{
+    margin-top: 70px;
+}
 
 
 .habilidades{
@@ -54,6 +62,10 @@ a{
     margin-right: auto;
     padding-top: 20px;
     border-radius: 100%;
+}
+
+#lic-bio{
+    font-style: italic;
 }
 
 
