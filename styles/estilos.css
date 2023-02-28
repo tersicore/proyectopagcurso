@@ -15,7 +15,26 @@ header{
     margin-top: 70px;
 }
 
+textarea{
+    resize: none;
+}
 
+
+.nav-item a {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    margin: 3px 3px 3px 3px;
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+.nav-item a:hover {
+    color: aqua;
+}
 
 .list-group-flush{
     margin-right: 15%
@@ -28,16 +47,17 @@ header{
     border-radius: 15px;
 }
 
-section[id]{
+.card{
     margin-top: 70px;
 }
 
 
 .habilidades{
-    padding-top: 5%;
+    padding-top: 10%;
     border-top-style:solid ;
     border-top-color:rgb(129, 145, 212) ;
     border-top-width:2px ;
+    margin-top: 70px;
 }
 
 .col-sm-12{
@@ -64,9 +84,42 @@ section[id]{
     border-radius: 100%;
 }
 
+.card-body{
+   display:none ;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+}
+
 #lic-bio{
     font-style: italic;
 }
+
+.button{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    margin-left: 2%;
+    border-style: none;
+    background-color: rgba(var(--bs-info-rgb),var(--bs-bg-opacity))!important;
+
+}
+
+
+
+.close{
+    display: none;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    margin-left: 2%;
+    border-style: none;
+    background-color: rgba(var(--bs-info-rgb),var(--bs-bg-opacity))!important;
+}
+
 
 
 @media only screen and (max-width: 576px) {
