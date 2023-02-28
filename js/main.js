@@ -1,48 +1,4 @@
-/*// Get all the section elements
-const sections = document.querySelectorAll('div[id^="section"]');
 
-// Create a new IntersectionObserver object
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      // Get the ID of the current section
-      const currentSectionId = entry.target.getAttribute('id');
-      
-    
-
-       // Add the 'active' class to the menu item corresponding to the current section
-       document.querySelector(`nav a[href="#${currentSectionId}"]`).classList.add('active');
-
-         // Remove the 'active' class from all menu items
-      document.querySelectorAll('.nav-item a').forEach(link => {
-        link.classList.remove('active');
-      });
-      }
-    });
-  });
-
-  // Observe each section element
-sections.forEach(function (section) {
-    observer.observe(section);
-  });
-  **/
-
- //* const observer = new IntersectionObserver(entries => {
-    /*entries.forEach(entry => {
-      const menuItem = document.querySelector(`[data-section="${entry.target.id}"]`);
-      if (entry.isIntersecting) {
-        menuItem.classList.add('active');
-      } else {
-        menuItem.classList.remove('active');
-      }
-    });
-  });
-
-  const sections = document.querySelectorAll('section');
-sections.forEach(section => {
-  observer.observe(section);
-})
-*/
 
 
 window.onload = function() {
